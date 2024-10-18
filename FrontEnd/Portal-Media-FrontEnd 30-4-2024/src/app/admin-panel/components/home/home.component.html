@@ -1,0 +1,5 @@
+<!-- app.component.html -->
+<app-sidebar></app-sidebar>
+<div class="main-content" [ngStyle]="{ 'margin-left.px': sidebarWidth }">
+  <router-outlet></router-outlet>
+</div>

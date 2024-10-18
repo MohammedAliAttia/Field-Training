@@ -1,0 +1,10 @@
+.rtl {
+    direction: rtl;
+}
+ 
+.rtl h2,
+.rtl h5,
+.rtl p,
+.rtl li {
+    text-align: right;
+}
